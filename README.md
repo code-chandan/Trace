@@ -49,4 +49,20 @@ I’m still working on finalizing the BOM and doing a test build. Once that’s 
 More soon. This is going to be fun.
 
 # BOM
+| Part                          | Price per Unit (INR) | Quantity | Total Price (INR) | Total Price (USD) | Link                                                                                   |
+|-------------------------------|----------------------|----------|-------------------|-------------------|----------------------------------------------------------------------------------------|
+| MGN15H Linear Rails           | ₹899                 | 6        | ₹5394             | $62.72            | [novo3d](https://novo3d.in/mgn15h-linear-rail/)                                        |
+| NEMA 23 Stepper Motors        | ₹1199                | 4        | ₹4796             | $55.77            | [robocraze](https://robocraze.com/products/23hs5628-nema23-stepper-motor?variant=40193193214105) |
+| BIGTREETECH SKR 1.4 Board     | ₹3699                | 1        | ₹3699             | $43.01            | [novo3d](https://novo3d.in/bigtreetech-pi-v1-2-control-board/)                         |
+| Ballscrews                   | —                    | —        | ₹0                | $—                | Already available                                                                      |
+| Spindle Clamp                | —                    | —        | ₹0                | $—                | Already available                                                                      |
+| Aluminum Components          | —                    | —        | ₹0                | $—                | Already available                                                                      |
+| IoT Switching Relay Power Strip | —                 | —        | ₹0                | $—                | Already available                                                                      |
+| 24V Meanwell Power Supply    | ₹1204                | 1        | ₹1204             | $14.00            | [amazon](https://amzn.in/d/6Mayd64)                                                    |
+| Router / Spindle             | ₹4000                | 1        | ₹4000             | $46.51            | —                                                                                      |
+| Fasteners                    | —                    | —        | ₹0                | $—                | Got a box full at home                                                                 |
+| 3D Prints                    | ₹949                 | 1        | ₹949              | $11.03            | [amazon](https://amzn.in/d/5rqDBXf)                                                    |
 
+
+total : $223
+**Note:** Some components like the spindle clamp, aluminum plates, and ballscrews were already available and not included in the final cost.
