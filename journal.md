@@ -94,7 +94,7 @@ Made a wiring diagram today. It’s ugly but it works. Routed wires from the mot
 # day 19
 time spent: 2 hours
 
-Started building a fake BOM to prep for sourcing. Listed rails, motors, belts, PSU, control board, etc. Prices are all over the place and half the links are dead but it gives me a rough idea of cost. Definitely not cheap but not as insane as I thought. Maybe around 12-15k INR.
+Started building a  BOM to prep for sourcing. Listed rails, motors, belts, PSU, control board, etc. Prices are all over the place and half the links are dead but it gives me a rough idea of cost. Definitely not cheap but not as insane as I thought. Maybe around 12-15k INR.
 
 # day 20
 time spent: 2.5 hours
