@@ -11,7 +11,7 @@
 
 Trace is a DIY CNC router that’s all about making CNC more accessible and fun. Built by chandan aka maverick hehe, it uses 3D-printed ABS parts to keep things strong but affordable. It’s got a decent working area, around 600 by 400 mm, which is big enough for wood, aluminum, brass, plexiglass, and even plastic. So whether you're carving, cutting, or doing some light metal work, it can handle it.
 
-At the heart of it is the BlackBox controller, and it runs on OpenBuilds software, which is super easy to use and gets the job done without any fuss. If you’re trying to learn how CNC machines work or just want something you can build and tweak yourself, Trace is perfect. The whole thing is designed to be assembled by hand, so you actually understand how it works while you build it.
+At the heart of it is the BIGTREETECH SKR 1.4 Turbo, and it runs on Marlin, which is super easy to use and gets the job done without any fuss. If you’re trying to learn how CNC machines work or just want something you can build and tweak yourself, Trace is perfect. The whole thing is designed to be assembled by hand, so you actually understand how it works while you build it.
 
 | Image | Description |
 |-------|-------------|
@@ -36,7 +36,7 @@ So this is Trace, my attempt at designing a functional, affordable, and actually
 
 The idea behind Trace is to keep things modular and accessible while still being tough enough to machine actual materials like wood, aluminum, plastic, brass, and maybe even some light steel cuts if you go slow. The working area is around 600 x 400 mm, which I think is a pretty sweet size   not too tiny, but not massive either. Should be enough for most hobby projects, DIY parts, PCBs, signs, enclosures, etc.
 
-I designed it around the OpenBuilds BlackBox controller because I wanted something reliable and easy to integrate, and I didn’t really feel like fighting with firmware bugs or weird driver issues. It’s not the cheapest route, but it makes up for that with stability, especially for people who want to actually use the thing instead of constantly fixing it.
+I designed it around the BIGTREETECH SKR 1.4 Turbo because I wanted something reliable and easy to integrate, and I didn’t really feel like fighting with firmware bugs or weird driver issues. It’s not the cheapest route, but it makes up for that with stability, especially for people who want to actually use the thing instead of constantly fixing it.
 
 The frame is all V-slot aluminum extrusion, and a good chunk of the parts are 3D printed in ABS. I went with ABS because it holds up better than PLA when things get hot, and it doesn’t warp like crazy if printed right. It also means you don’t need a CNC to build a CNC, which is kind of the whole point. I’ve kept the number of custom metal parts super low  like ideally just the spindle mount and maybe some plates you could laser cut or get fabricated.
 
