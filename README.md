@@ -6,7 +6,7 @@
 <br>
 <br>
 
-<img width="1525" height="867" alt="image" src="https://github.com/user-attachments/assets/95bd78db-d9af-41b2-aba0-2e9f1b6f7439" />
+<img width="3024" height="1316" alt="CNC_Render" src="https://github.com/user-attachments/assets/99533f64-736b-44bd-a09c-3b5cd120e6ea" />
 
 
 Trace is a DIY CNC router that’s all about making CNC more accessible and fun. Built by chandan aka maverick hehe, it uses 3D-printed ABS parts to keep things strong but affordable. It’s got a decent working area, around 600 by 400 mm, which is big enough for wood, aluminum, brass, plexiglass, and even plastic. So whether you're carving, cutting, or doing some light metal work, it can handle it.
@@ -15,19 +15,19 @@ At the heart of it is the BIGTREETECH SKR 1.4 Turbo, and it runs on Marlin, whic
 
 | Image | Description |
 |-------|-------------|
-| <img width="1307" height="853" alt="image" src="https://github.com/user-attachments/assets/7f79328d-6c77-4f06-8c9c-e5f84b194d37" /> | Front |
+| <img width="3024" height="1316" alt="CNC_Render_Front" src="https://github.com/user-attachments/assets/222c6571-a2ca-4bde-9703-8bfd1c1e9591" /> | Front render|
 
 | Image | Description |
 |-------|-------------|
-| <img width="1410" height="818" alt="image" src="https://github.com/user-attachments/assets/3e680812-a5ca-4a90-86d5-664090a0f58a" /> | side |
+| <img width="3024" height="1316" alt="CNC_Render_Mis2" src="https://github.com/user-attachments/assets/bcdb3371-2e0d-48e9-ad8b-728c2cef95bd" /> | closeup render|
 
 | Image | Description |
 |-------|-------------|
-| <img width="1285" height="901" alt="image" src="https://github.com/user-attachments/assets/c700d409-c1d6-487c-98fb-55c5fcdfd407" /> | side |
+| <img width="3024" height="1316" alt="CNC_Render_Mis" src="https://github.com/user-attachments/assets/de89e771-0b66-43dc-861e-ce98ae8b7edd" /> | closeup render|
 
 | Image | Description |
 |-------|-------------|
-| <img width="1130" height="910" alt="image" src="https://github.com/user-attachments/assets/3e53add2-8fe7-4255-b42d-a20ee5d91fba" /> | back |
+| <img width="3024" height="1316" alt="CNC_Render_Side" src="https://github.com/user-attachments/assets/bb1bb12c-0bd5-4a84-82e6-ca7c39a9756c" /> | side render |
 
 
 # testing myself lol
