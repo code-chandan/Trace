@@ -7,7 +7,6 @@
 <br>
 <br>
 
-<img width="3024" height="1316" alt="CNC_Render" src="https://github.com/user-attachments/assets/b5923037-73d6-483c-9049-dd3c4fd08d5b" />
 
 Trace is a DIY CNC router that’s all about making CNC more accessible and fun. Built by chandan aka maverick hehe, it uses 3D-printed ABS parts to keep things strong but affordable. It’s got a decent working area, around 600 by 400 mm, which is big enough for wood, aluminum, brass, plexiglass, and even plastic. So whether you're carving, cutting, or doing some light metal work, it can handle it.
 
@@ -15,19 +14,19 @@ At the heart of it is the BIGTREETECH SKR 1.4 Turbo, and it runs on Marlin, whic
 
 | Image | Description |
 |-------|-------------|
-| <img width="3024" height="1316" alt="CNC_Render_Front" src="https://github.com/user-attachments/assets/5e0b1791-3736-485a-9894-6a27b3101e35" /> | Front Render |
+|  | Front Render |
 
 | Image | Description |
 |-------|-------------|
-| <img width="3024" height="1316" alt="CNC_Render_Mis" src="https://github.com/user-attachments/assets/8e23aedc-46fb-4d75-8068-83f878a5c566" /> | Closeup 1 |
+|  | Closeup 1 |
 
 | Image | Description |
 |-------|-------------|
-| <img width="3024" height="1316" alt="CNC_Render_Mis2" src="https://github.com/user-attachments/assets/b7267417-b9cf-4ff4-9ac2-1c16ea9b4044" /> | Closeup 2 Render|
+| | Closeup 2 Render|
 
 | Image | Description |
 |-------|-------------|
-| <img width="3024" height="1316" alt="CNC_Render_Side" src="https://github.com/user-attachments/assets/d4472926-0a88-472a-b7ff-363ebdf0af1e" /> | Side Render |
+|  | Side Render |
 
 
 # testing myself lol
