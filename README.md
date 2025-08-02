@@ -1,4 +1,3 @@
-<img width="1410" height="818" alt="image" src="https://github.com/user-attachments/assets/f11f4436-b011-4a43-aa36-17cc170873ca" />
 # Trace, the CNC Router !
 <img width="1200" height="500" alt="473084075-92e261d6-6934-49d6-86aa-f784dd4165f3" src="https://github.com/user-attachments/assets/25c9d8ad-760f-4a99-a863-ff3a931a5c32" />
 
