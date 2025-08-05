@@ -1,102 +1,78 @@
-# Hours spent ~50 hours
+# Hours spent ~33 hours
 
 
 # day 1
-time spent: 2.5 hours
+time spent: 1.5 hours ( made notes of each and everything, tryna understand everything at every point, thus the 1.5 hours)
 
-Kicked things off by just dumping all the ideas in my head into a Notion page. Looked at a few random DIY CNC builds online to figure out what size I’m even aiming for. Nothing too crazy, just something that can eat through MDF and acrylic for now. Got kinda obsessed with the linear rail options but didn’t finalize anything yet. Honestly just trying to wrap my head around motion systems and how all the axes are gonna move without interfering with each other.
+<img width="400" height="1202" alt="image" src="https://github.com/user-attachments/assets/d1433caf-3eca-4b98-9c43-6b6afa0941cc" /> <img width="400" height="1201" alt="image" src="https://github.com/user-attachments/assets/2f22036b-dc48-4499-8696-2d637e9a3781" />
 
-# day 2
-time spent: 1.5 hours
+1.[What is CNC Router & How Does it Work?](https://www.youtube.com/watch?v=zd29RG5vqqo) , [Wattsan](https://www.youtube.com/@Wattsan)
+A very useful breakdown of professional CNC routers was provided in this video. The most important lesson I learned was the importance of precise clamping and workholding setups, which I was somewhat winging. I also observed how they use drag chains to neatly route cables. I might have to take that into account for my own build in order to prevent snagged or messy wiring.
+<br>
+2. [Making a DIY CNC machine with limited tools](https://www.youtube.com/watch?v=covhU4L5N5g) , [Ben Makes Everything](https://www.youtube.com/@benmakeseverything)
+This was a good illustration of how to remove CNC machine parts using only simple tools. I appreciated how he used a basic drill press and a lot of perseverance to mill out an extremely clean Z-axis plate. It served as a reminder that all I need to create solid parts is accuracy and a little forethought, not fancy equipment. It also inspired me to simplify some of my own bracket designs.
 
-Spent time learning about frame types. V-slot, T-slot, aluminum extrusion, MDF base? So many choices. Dug through a few Reddit posts and tried making a rough layout sketch on paper. Thought I had a plan until I realized I didn’t account for the Z height. That’s tomorrow’s problem.
+
+# day2 
+time spent: 2 hours
+<br>
+<img width="440" height="2160" alt="image" src="https://github.com/user-attachments/assets/69f9fc45-d7e8-4a46-ac75-9761dd9545f3" /> <img width="440" height="2160" alt="image" src="https://github.com/user-attachments/assets/67fcdbe2-86dd-4f46-81d4-2d47af8cf548" />
+
+I spent about two hours today studying the circuit diagrams that Ben shared in order to comprehend the wiring configuration and the arrangement of the parts in his CNC printer. In order to understand how the electronics were arranged in his design, I also opened and looked through the.f3z Fusion 360 files he sent. The primary goals of this session were to collect ideas and gain a better grasp of how everything works together. Even though my final circuit will be custom-built, looking over Ben's setup helped me better visualize what works and what to look out for when it comes to cable routing and board placement.
+
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/1dcec054-b588-43a5-bd1f-df9b0ac4c440" />
+
+# [Ben's Github Repo](https://github.com/BenMakesEverything/Ben_CNC_v1)
+
+
 
 # day 3
-time spent: 3 hours
+time spent: 2 hours
+<br>
+Designing the CNC router's base frame in Fusion 360 took me roughly two hours. Ten 2020 extrusions run horizontally between two 4080 aluminum extrusions positioned vertically on either side of the structure. The 4080s are the main supports and will likely carry the X-axis components later. In order to accommodate future linear rail or bracket mounting, I made sure the grooves faced inward. The 2020s are evenly spaced to create a sturdy platform base that provides sufficient surface coverage and strength for mounting the spoilboard.The modeling procedure was fairly simple: the profiles were primarily sketched, extruded to the proper lengths, and everything was precisely positioned using the align and joint tools.  In order to adjust the spacing or extrusion lengths later if necessary, I kept the design parametric.
 
-Jumped into Fusion 360 today. Made a basic frame with 2040 extrusions. Started modeling a gantry just to see how awkward it’s gonna get. Spoiler: very awkward. Couldn’t figure out how to mount the spindle without it hitting the Y rails. Going back to the drawing board tomorrow. Probably going to mock it flat before I go full 3D again.
+| Image | Description |
+|-------|-------------|
+| <img width="1374" height="805" alt="Screenshot 2025-08-05 143159" src="https://github.com/user-attachments/assets/026ed4e2-c72d-47b1-be1e-e5b301e53aeb" /> | base of the router |
+
 
 # day 4
-time spent: 2 hours
+time spent: 4 hours
 
-Watched some guy on YouTube model an entire CNC router in 12 minutes. It gave me false hope. Tried doing the same thing and ended up with a crooked Z axis and missing fasteners. At least I know how joints and constraints work now. Still stuck choosing between belt drive and lead screw.
+I expanded the CNC router model for roughly three hours today.  I added the spindle mount, linear rails on all three axes, and the complete gantry setup. The gantry is now supported by a set of linear blocks and is constructed from twin 2020 extrusions on the X-axis.  Directly mounted linear rails allow the Y-axis to travel along 4080 extrusions. In order to preserve travel alignment and spacing, I carefully modeled and placed the rail blocks. A spindle holder and a vertical rail are part of the Z-axis. I made the mount to accommodate a small spindle with a simple housing by reusing 2020 for the Z-frame. Although it's not final, it currently works for scale and placement. Due to the numerous components and alignments, the assembly took a long time. particularly ensuring that the rail carriages did not interfere with mounting plates and sat flush.  However, now that everything is appropriately constrained, the structure appears mechanically sound for mockup or simulation purposes.
+
+| Image | Description |
+|-------|-------------|
+| <img width="1254" height="701" alt="Screenshot 2025-08-05 183233" src="https://github.com/user-attachments/assets/e9cede5d-0479-4b80-880e-3efa190c8f26" /> | Gantry, Linear Rails, and Spindle Assembly |
+
 
 # day 5
-time spent: 3 hours
+time spent: 2.5 hours
 
-Made some progress figuring out the Y axis. Tried lead screw first, but belt drive feels simpler and cheaper to maintain. Modeled both to compare them. Belt drive looks cleaner and gives more space under the gantry. Think I’ll go with that. Might regret it later but we move.
+Today, the structural side plates and motor mounts for the Y-axis were added. The motion system is fastened to the base by the large aluminum profiles that are visible at both ends of the gantry.I created unique side plates to secure the motor and Y-axis lead screw. These are attached straight to the ends of the gantry and the linear rail carriage. The plates are shaped to preserve both rigidity and clearance, and they have mounting holes for pulleys and motor brackets.The majority of the time spent on this update was spent correctly sketching and constraining the plates. In order to guarantee alignment with the spindle and base board, I also made some adjustments to the Y-axis extrusions.Though structurally significant, it's a smaller step. The model is almost ready for machining volume estimation and full-axis movement simulation.
+
+| Image | Description |
+|-------|-------------|
+| <img width="1438" height="730" alt="Screenshot 2025-08-05 184021" src="https://github.com/user-attachments/assets/b2a8148c-6d46-457a-8748-adf49ab0e202" /> |  Gantry, Y-Axis Motor Mounts and Structural Plates |
 
 # day 6
-time spent: 2.5 hours
+time spent: 3.5 hours
 
-Started designing the carriage system. Realized I’d been avoiding the Z axis this whole time. Looked at a few openbuilds designs and tried to copy their vibe. Got stuck again on how to mount the spindle in a way that won’t flex like crazy. Thinking I might need to buy a prefabricated Z module.
+The NEMA 23 motor on the Z-axis spindle mount is now part of the updated design. In addition, I installed the motor coupler, belt/pulley housing, and any structural supports required to connect the motor to the spindle plate. A detailed model of the Makita RT0700 has now taken the place of the placeholder spindle. For size, mounting holes, and clearance checks around the Z-axis, this offers a more accurate reference.Both Y-axis ends also received end-stop brackets. These blocks will be used as mounting locations for sensors or as mechanical boundaries. They also aid in completing the external framework.A more comprehensive mechanical layout, complete with motion components and a spindle ready for production, is now reflected in the model. 
+
+| Image | Description |
+|-------|-------------|
+|<img width="1257" height="640" alt="Screenshot 2025-08-05 184644" src="https://github.com/user-attachments/assets/65718fc1-2103-476a-902e-94e240dcc077" /> | Motor Assembly, End Brackets, and RT0700 Spindle |
+
 
 # day 7
-time spent: 2 hours
+time spent: 3.5 hours
 
-Kinda just stared at Fusion today. Did some minor tweaks, changed the position of the motors, and tested how much clearance I’d get if I increased the Z height. Noticed I forgot to leave space for wiring and drag chains. That’s gonna need a whole new pass soon.
+The machine bed and motion control were the main topics of discussion today. Two on the Y-axis sides and one on each of the X and Z axes are the stepper motors that I added to all three axes. To get everything aligned, this required adjusting the coupling brackets, motor mounts, and some constraints.On both Y-axes, the lead screw system was installed. It comes with supported end blocks, anti-backlash nuts, and motor-side brackets. This gives the motion system a much more comprehensive visual feel. Additionally, I completed the Z-axis motor mounting on top.installed a slotted aluminum extrusion bed in place of the wooden baseboard. This modification makes the model more like the real machine in terms of appearance and operation.Additionally, it provides a clearer picture of clearances and the potential future functionality of clamping.
+
+| Image | Description |
+|-------|-------------|
+|<img width="1431" height="676" alt="Screenshot 2025-08-05 185419" src="https://github.com/user-attachments/assets/00dc5cc4-3a87-4266-954b-091db3776c39" /> | Motor Assembly, End Brackets, and RT0700 Spindle |
 
 # day 8
-time spent: 2.5 hours
 
-Started laying out electronics. Made basic placeholders for the stepper motors, drivers, and power supply. Thinking about putting everything in a side-mounted control box. Also realized I have no idea how to design a good cable management system. Might 3D print clips or use some aluminum brackets.
-
-# day 9
-time spent: 1.5 hours
-
-Looked at options for limit switches and emergency stop buttons. Modeled a tiny bracket to hold a limit switch near the gantry but forgot about travel clearance. Also spent too much time deciding whether I want the control box on the left or right side. No clue why that decision took 30 minutes.
-
-# day 10
-time spent: 2 hours
-
-Did another clean-up pass of the whole design. Things are starting to actually look like a CNC router now. Still needs a lot of alignment checking and sanity checks before I start thinking about manufacturing. Might export a few drawings to plan the baseplate.
-
-# day 11
-time spent: 2.5 hours
-
-Started messing with the base design. Decided to go with an MDF sacrificial layer on top of a plywood base. Had to rework the frame slightly to support it properly. Also added some mock T-nuts and hold-downs just for the visual. Looks way cooler now even though none of it’s real yet.
-
-# day 12
-time spent: 1.5 hours
-
-Tried doing some stress tests in Fusion but I don’t trust my results at all. My joints are too loose and the simulation crashes half the time. Will probably just build it and hope for the best. Also started compiling a rough BOM. Stepper motor prices are all over the place.
-
-# day 13
-time spent: 3 hours
-
-Redid the Z axis again. This is probably the third time but it finally feels solid. Made a proper mounting plate for the spindle and gave it some depth so I can add a dust shoe later. Still not sure how I’ll secure that though. Might leave it detachable for now.
-
-# day 14
-time spent: 2 hours
-
-Got serious about the gantry. Made the sides taller so the X rail sits higher, giving me more travel below. Had to shift the motor mounts again and double check belt clearance. I think the layout is solid now. No obvious crashes between components.
-
-# day 15
-time spent: 2.5 hours
-
-Did a huge cleanup today. Renamed all my components, organized them into folders, and made a proper assembly. Fixed the origin point too so everything’s easier to measure from now on. Feels way easier to work with now. Should’ve done this from day 1.
-
-# day 16
-time spent: 2 hours
-
-Added an enclosure idea just for fun. Might never actually build it but it looks super clean in the renders. Gave it a clear top and a front-opening hatch. Still need to think about airflow and chip collection but that’s way later. Right now it’s just vibes.
-
-# day 17
-time spent: 2 hours
-
-Finalized the mounting holes and baseplate. Took a while to align everything with the spoilboard slots. Marked drill holes for mounting the motors and lead screw nuts. Exported a few DXFs and test printed one on paper to check scale. Pretty hype.
-
-# day 18
-time spent: 2 hours
-
-Made a wiring diagram today. It’s ugly but it works. Routed wires from the motors to the control box and marked where the power supply and relay module will go. Planning to add some ferrules and wire labels later when I build. This part was way more fun than I expected.
-
-# day 19
-time spent: 2 hours
-
-Started building a  BOM to prep for sourcing. Listed rails, motors, belts, PSU, control board, etc. Prices are all over the place and half the links are dead but it gives me a rough idea of cost. Definitely not cheap but not as insane as I thought. Maybe around 12-15k INR.
-
-# day 20
-time spent: 2.5 hours
-
-Final check of the whole design. Rotated every part, checked fitment, did a dry run through the motion system in Fusion. It’s actually moving the way it should. Saved backups of the full design, BOM, and wiring stuff. Ready to move into manufacturing next.
