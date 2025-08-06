@@ -61,7 +61,7 @@ More soon. This is going to be fun.
 | 24V Meanwell Power Supply    | ₹1204                | 1        | ₹1204             | $14.00            | [amazon](https://amzn.in/d/6Mayd64)                                                    |
 | Router / Spindle             | ₹4000                | 1        | ₹4000             | $46.51            | —                                                                                      |
 | Fasteners                    | —                    | —        | ₹0                | $—                | Got a box full at home                                                                 |
-| 3D Prints                    | ₹949                 | 1        | ₹949              | $11.03            | [amazon](https://amzn.in/d/5rqDBXf)                                                    |
+| filament                    | ₹949                 | 1        | ₹949              | $11.03            | [amazon](https://amzn.in/d/5rqDBXf)                                                    |
 
 
 total : $223
