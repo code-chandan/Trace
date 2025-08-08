@@ -1,4 +1,4 @@
-# Hours spent ~33 hours
+# Hours spent ~25 hours
 
 
 # day 1
