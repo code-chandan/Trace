@@ -75,4 +75,17 @@ The machine bed and motion control were the main topics of discussion today. Two
 |<img width="1431" height="676" alt="Screenshot 2025-08-05 185419" src="https://github.com/user-attachments/assets/00dc5cc4-3a87-4266-954b-091db3776c39" /> | Motor Assembly, End Brackets, and RT0700 Spindle |
 
 # day 8
+time spent: 4 hours
+
+After carefully reviewing the previous iterations and making several adjustments to bring the design closer to a final, production-ready state, I spent roughly four hours completing the CNC build. A cleaner, cylindrical spindle design was used in place of the RT0700 spindle model, which was one of the more obvious modifications. In addition to altering the appearance, this gave me the opportunity to redesign the Z-axis mount to make it more compact and move the spindle closer to the linear rails, which should increase rigidity. The entire frame now has a more unified and polished appearance thanks to the gantry side plates' redesign, which features a solid black finish and a simpler, cleaner profile. In addition, I changed the stepper motor mounts from their open plate design to a squarer, more enclosed construction that seems more deliberate and robust. Beyond these more significant adjustments, I worked hard to tighten the visual balance by making minor proportional adjustments and maintaining color consistency throughout the frame. Both structurally and aesthetically, the finished product feels more like a well-planned, completed machine than a prototype.
+
+| Image | Description |
+|-------|-------------|
+| <img width="707" height="419" alt="image" src="https://github.com/user-attachments/assets/b7838a3f-9354-40d5-be09-0fdc92f08b14" /> | Motor Assembly, End Brackets, and RT0700 Spindle |
+
+
+
+
+
+
 
