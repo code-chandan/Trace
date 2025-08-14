@@ -53,7 +53,7 @@ More soon. This is going to be fun.
 |-------------------------------|----------------------|----------|-------------------|-------------------|----------------------------------------------------------------------------------------|
 | MGN15H Linear Rails           | ₹899                 | 6        | ₹5394             | $62.72            | [novo3d](https://novo3d.in/mgn15h-linear-rail/)                                        |
 | NEMA 23 Stepper Motors        | ₹1199                | 4        | ₹4796             | $55.77            | [robocraze](https://robocraze.com/products/23hs5628-nema23-stepper-motor?variant=40193193214105) |
-| BIGTREETECH SKR 1.4 Board     | ₹3699                | 1        | ₹3699             | $43.01            | [novo3d](https://novo3d.in/bigtreetech-pi-v1-2-control-board/)                         |
+| openbuilds blackbox           | ₹3699                | 1        | ₹12180           | $140.00            |                                                                                        |
 | Ballscrews                   | —                    | —        | ₹0                | $—                | Already available                                                                      |
 | Spindle Clamp                | —                    | —        | ₹0                | $—                | Already available                                                                      |
 | Aluminum Components          | —                    | —        | ₹0                | $—                | Already available                                                                      |
@@ -64,5 +64,5 @@ More soon. This is going to be fun.
 | filament                    | ₹949                 | 1        | ₹949              | $11.03            | [amazon](https://amzn.in/d/5rqDBXf)                                                    |
 
 
-total : $223
+total : $328
 **Note:** Some components like the spindle clamp, aluminum plates, and ballscrews were already available and not included in the final cost.
