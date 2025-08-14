@@ -1,7 +1,7 @@
 ﻿Part,Price per unit,Quantity,total price in INR,total price in USD,links,,,,,,,
 Rails ,899,6,5394, $62.72 ,[novo3d](https://novo3d.in/mgn15h-linear-rail/),,,,,,,
 NEMA 23 Stepper Motor,1199,4,4796, $55.77 ,[robocraze](https://robocraze.com/products/23hs5628-nema23-stepper-motor?variant=40193193214105),,,,,,,
-BIGTREETECH SKR 1.4 ,3699,1,3699, $43.01 ,[novo3d](https://novo3d.in/bigtreetech-pi-v1-2-control-board/),,,,,,,usd to inr
+BIGTREETECH SKR 1.4 ,12180,1,12180, $140.00 ,,,,,,,,usd to inr
 ballscrews,0,0,0, $-   ,already available,,,,,,,86
 Spindle Clamp,0,0,0, $-   ,already available,,,,,,,
 Alluminum stuff,0,0,0, $-   ,already available,,,,,,,
@@ -25,4 +25,5 @@ Fasteners,0,0,0, $-   ,I got all kinds of fasteners at home,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
-,,,, $233.05 ,,,,,,,,
+,,,, $328.05 ,,,,,,,,
+
