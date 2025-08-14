@@ -11,7 +11,7 @@
 
 Trace is a DIY CNC router that’s all about making CNC more accessible and fun. Built by chandan aka maverick hehe, it uses 3D-printed ABS parts to keep things strong but affordable. It’s got a decent working area, around 600 by 400 mm, which is big enough for wood, aluminum, brass, plexiglass, and even plastic. So whether you're carving, cutting, or doing some light metal work, it can handle it.
 
-At the heart of it is the OpenBuilds Blackbox, and it runs on Marlin, which is super easy to use and gets the job done without any fuss. If you’re trying to learn how CNC machines work or just want something you can build and tweak yourself, Trace is perfect. The whole thing is designed to be assembled by hand, so you actually understand how it works while you build it.
+At the heart of it is the OpenBuilds Blackbox, and it runs on openbuilds control, which is super easy to use and gets the job done without any fuss. If you’re trying to learn how CNC machines work or just want something you can build and tweak yourself, Trace is perfect. The whole thing is designed to be assembled by hand, so you actually understand how it works while you build it.
 
 | Image | Description |
 |-------|-------------|
